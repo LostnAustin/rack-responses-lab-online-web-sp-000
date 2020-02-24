@@ -2,7 +2,7 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-    resp.write "Welcome to time-based response!\n"
+    resp.write "Good Morning!\n"
     resp.finish
 
     ran_num = Kernel.rand(1..24)
