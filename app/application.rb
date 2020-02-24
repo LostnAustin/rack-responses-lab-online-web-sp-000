@@ -10,5 +10,5 @@ class Application
     else time1.inspect > 12
       resp.write "Good Afternoon!"
     end
-  
+
 end
