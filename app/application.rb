@@ -5,9 +5,9 @@ class Application
 
     time1 = Time.new
 
-    if time1.inspect < 12:00:00
+    if time1.inspect < 12
       resp.write "Good Morning!"
-    else time1.inspect > 12:00:00
+    else time1.inspect > 12
       resp.write "Good Afternoon!"
     end
   
