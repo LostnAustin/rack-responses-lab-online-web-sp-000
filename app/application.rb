@@ -9,4 +9,7 @@ class Application
       resp.write "Good Morning!"
     else time1.inspect > 12:00:00
       resp.write "Good Afternoon!"
+    end
+    resp.finish
+  end
 end
