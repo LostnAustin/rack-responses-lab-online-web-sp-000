@@ -5,6 +5,8 @@ class Application
     resp.write "Good Morning!"
     resp.finish
 
+    ran_num = Kernel.rand(1..24)
+    resp.write "#{ran_num}"
     if resp < 12
       resp.write "Good Morning!"
     else resp > 12
