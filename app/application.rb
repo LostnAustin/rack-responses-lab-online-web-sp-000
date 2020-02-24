@@ -7,9 +7,9 @@ class Application
 
     ran_num = Kernel.rand(1..24)
     resp.write "#{ran_num}\n"
-    if resp < 12
+    if ran_num < 12
       resp.write "Good Morning!"
-    else resp > 12
+    else ran_num > 12
       resp.write "Good Afternoon!"
     end
     resp.finish
